@@ -88,7 +88,7 @@ html, body {
     padding: 10px;
 }
 #linha{
-    height: 50px;
+    height: 10px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 40px;
@@ -98,4 +98,26 @@ html, body {
     display: flex;
     flex-wrap: nowrap;
     font-size: 18px;
+}
+#producao{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 18px;
+    background: #f7f7f7;
+    margin-top: 50px;
+}
+.imgProd{
+    width: 60%;
+    border-radius: 8px;
+
+}
+#sobre{
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+#minha{
+    width: 20%;
+    border-radius: 8px;
 }
