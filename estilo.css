@@ -36,14 +36,6 @@
     padding: 10px;
     margin-left: 100px;
 }
-#imagem{
-    text-align: center;
-    background-position-y: center;
-    
-}
-#imagem:hover{
-    opacity: 0.5;
-}
 #central{
     text-align: center;
     width: 800px;
