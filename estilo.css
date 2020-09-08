@@ -1,15 +1,38 @@
-#titulo{
-    background-color: gainsboro;
-    border-top: 5px black solid;
-    padding-left: 10px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+html, body {
+    margin: 0px;
+}
+
+#capa{
+    background: url("fundo.jpg");
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 100%;
     text-align: center;
-    text-shadow: gray 1px 1px;
-    
+    background-image: cover;
+}
+#titulo{
+    color: black;
+    padding-top: 130px;
+    font-size: 60px;
+}
+#subtitulo{
+    color: black;
+    padding-bottom: 8px;
+    border-top: 3px black solid;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#botao{
+    color: black;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+#video{
+    padding-top: 10px;
+    margin-left: 28%;
+    margin-right: 30%;
 }
 #texto{
     border: 2px ;
@@ -43,7 +66,7 @@
     padding: 10px;
     margin-left: 100px;
     margin: auto;
-    font-size: 12px;
+    font-size: 13px;
 }
 #linha{
     height: 50px;
