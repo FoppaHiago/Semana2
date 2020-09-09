@@ -8,6 +8,7 @@ header{
     width: 150px;
     height: 60px;
     width: 100%;
+    z-index: 10;
 }
 #logo{
     width: 50px;
@@ -24,6 +25,7 @@ header{
 li{
     float: left;
     padding: 20 10 20 10;
+    border-radius: 10px;
 }
 li:hover{
     background-color: yellowgreen;
@@ -91,6 +93,10 @@ li:hover{
 }
 .icone{
     width: 70px;
+    border-radius: 30px;
+}
+.icone:hover{
+    background-color: yellowgreen;
 }
 #texto{
     border: 2px ;
@@ -146,12 +152,14 @@ li:hover{
     font-size: 18px;
     text-align: center;
     font-size: 18px;
+    border-bottom: 5px rgb(214, 247, 148) solid;
+    height: 70%;
 }
 #minha{
     width: 50%;
-    border-radius: 8px;
-    height: 65%;
-    margin-bottom: 20px;
+    border-radius: 360px;
+    height: 90%;
+    padding-top: 15px;
 }
 .coluna{
     float: left;
@@ -160,4 +168,10 @@ li:hover{
 }
 .dois{
     width: 40%;
+}
+footer{
+    background-color: yellowgreen;
+    float: left;
+    width: 100%;
+    border-top: 5px rgb(195, 236, 112) solid;
 }
